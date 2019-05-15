@@ -4,9 +4,6 @@ import (
 	"golang.org/x/tour/pic"
 )
 
-var dx = 5
-var dy = 5
-
 func Pic(dx, dy int) [][]uint8 {
 
 	inte := make([]uint8, dx)
