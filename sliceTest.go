@@ -6,10 +6,10 @@ import (
 
 func Pic(dx, dy int) [][]uint8 {
 
-	inte := make([]uint8, dx)
 	exte := make([][]uint8, dy)
 
 	for j,_ := range exte {
+		inte := make([]uint8, dx)
 		for i,_ := range inte {
 			inte[i] = uint8(i*j)
 		}
