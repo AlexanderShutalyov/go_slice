@@ -9,6 +9,7 @@ var dnkFirst = "GAGCCTACTAACGGGAT"
 var dnkSecond = "CATCGTAATGACGGCCT"
 
 func checkstr() bool{
+
 	if len(dnkFirst) != len (dnkSecond) {
 		return false
 	}
